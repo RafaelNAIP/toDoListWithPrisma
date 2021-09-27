@@ -10,10 +10,17 @@ usersRouter.post("/", async (request, response) => {
     const user = await prisma.user.create({
         data: {
             name,
-            email
+            email,
         }
+        
     })
     response.json(user)
+})
+
+usersRouter.get("/", async (request, response) => {
+    const allUsers = await prisma.user.findMany()
+    
+    response.json(allUsers)
 })
 
 export default usersRouter

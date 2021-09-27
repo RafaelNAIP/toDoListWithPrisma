@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "ToDo" ALTER COLUMN "timeSpentOnToDo" SET DATA TYPE TEXT;
