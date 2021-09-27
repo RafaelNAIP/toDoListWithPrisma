@@ -1,0 +1,47 @@
+Arguments: 
+  /home/rafael/.nvm/versions/node/v16.10.0/bin/node /usr/local/bin/yarn add prisma typescript rs-node @types/node --save-dev
+
+PATH: 
+  /home/rafael/.nvm/versions/node/v16.10.0/bin:/home/rafael/.zinit/polaris/bin:/home/rafael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rs-node: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "hello-prisma",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
